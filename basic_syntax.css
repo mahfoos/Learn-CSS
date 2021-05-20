@@ -50,3 +50,61 @@ p{
 }
 
 /* Styling List */
+#ordered-list {
+    list-style-type: upper-alpha;
+    list-style-type: lower-alpha;
+    list-style-type:upper-roman;
+    list-style-type: lower-roman;
+
+}
+
+#unordered-list {
+    list-style-type: square;
+    list-style-type: disc;
+    list-style-type:circle;
+    list-style-type: lower-roman;
+
+}
+
+/* Styling links */
+
+#topbar {
+    background-color: aqua;
+    padding: 24px 48px;
+}
+
+body {
+    margin:0;
+}
+
+.manu-item {
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.manu-item:link {
+    color: blue;
+}
+
+.manu-item:visited {
+    color: green;
+}
+
+.manu-item:hover {
+    color: red;
+}
+
+.manu-item:active {
+    color: purple ;
+}
+
+/* Different States for links
+1. Link - This is tha state where link is not visited
+2. Visited - This is the state when link is visited
+3. Hover - This is state when mouse is hovered on the link
+4. Active - This is the state when the link is clicked
+
+*/
+
